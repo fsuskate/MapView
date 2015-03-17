@@ -21,6 +21,9 @@
 		1257B1A718399FBD006AFD5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1257B18918399FBC006AFD5B /* UIKit.framework */; };
 		1257B1AF18399FBD006AFD5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1257B1AD18399FBD006AFD5B /* InfoPlist.strings */; };
 		1257B1B118399FBD006AFD5B /* MapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1257B1B018399FBD006AFD5B /* MapViewTests.m */; };
+		1257B1BB18399FE7006AFD5B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1257B1BA18399FE7006AFD5B /* MapKit.framework */; };
+		129F8FA018517C9D00853A04 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 129F8F9F18517C9D00853A04 /* NewClass.m */; };
+		12D173CF183B18B700534616 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D173CE183B18B700534616 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		1257B1AC18399FBD006AFD5B /* MapViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewTests-Info.plist"; sourceTree = "<group>"; };
 		1257B1AE18399FBD006AFD5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1257B1B018399FBD006AFD5B /* MapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewTests.m; sourceTree = "<group>"; };
+		1257B1BA18399FE7006AFD5B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		129F8F9E18517C9D00853A04 /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		129F8F9F18517C9D00853A04 /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
+		12D173CE183B18B700534616 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D173CF183B18B700534616 /* iAd.framework in Frameworks */,
+				1257B1BB18399FE7006AFD5B /* MapKit.framework in Frameworks */,
 				1257B18818399FBC006AFD5B /* CoreGraphics.framework in Frameworks */,
 				1257B18A18399FBC006AFD5B /* UIKit.framework in Frameworks */,
 				1257B18618399FBC006AFD5B /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		1257B18418399FBC006AFD5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				12D173CE183B18B700534616 /* iAd.framework */,
+				1257B1BA18399FE7006AFD5B /* MapKit.framework */,
 				1257B18518399FBC006AFD5B /* Foundation.framework */,
 				1257B18718399FBC006AFD5B /* CoreGraphics.framework */,
 				1257B18918399FBC006AFD5B /* UIKit.framework */,
@@ -112,6 +123,8 @@
 		1257B18B18399FBC006AFD5B /* MapView */ = {
 			isa = PBXGroup;
 			children = (
+				129F8F9E18517C9D00853A04 /* NewClass.h */,
+				129F8F9F18517C9D00853A04 /* NewClass.m */,
 				1257B19418399FBC006AFD5B /* AppDelegate.h */,
 				1257B19518399FBC006AFD5B /* AppDelegate.m */,
 				1257B19718399FBC006AFD5B /* Main.storyboard */,
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1257B19C18399FBC006AFD5B /* ViewController.m in Sources */,
+				129F8FA018517C9D00853A04 /* NewClass.m in Sources */,
 				1257B19618399FBC006AFD5B /* AppDelegate.m in Sources */,
 				1257B19218399FBC006AFD5B /* main.m in Sources */,
 			);
@@ -460,6 +474,7 @@
 				1257B1B618399FBD006AFD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1257B1B718399FBD006AFD5B /* Build configuration list for PBXNativeTarget "MapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				1257B1B918399FBD006AFD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
